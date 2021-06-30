@@ -11,8 +11,8 @@ logging.basicConfig(
 bottoken = None
 # start the bot
 print("Starting...")
-apiid = 6
-apihash = "eb06d4abfb49dc3eeb1aeb98ae0f581e"
+apiid = 1971546
+apihash = "b994bccad6118cd6fb6d091b9bbfe5cf"
 try:
     bottoken = config("BOT_TOKEN")
     api = config("TOR_KEY")
