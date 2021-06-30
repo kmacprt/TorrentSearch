@@ -50,7 +50,7 @@ async def bk(event):
 @BotzHub.on(events.callbackquery.CallbackQuery(data="help"))
 async def send_help(event):
     await event.edit(
-        "**Torrent Searcher.**\n\nSend me a query and I'll search for available magnet links!\nPowered by Torrent API, by @tprojects!\n\nJoin @BotzHub if you liked this bot!",
+        "**Torrent Searcher.**\n\nSend me a query and I'll search for available magnet links!\nPowered by @lkhitechs",
         buttons=[
             [Button.inline("« Back", data="bck")],
         ],
@@ -106,8 +106,9 @@ async def src(event):
 buttons = [
     [Button.inline("Help", data="help")],
     [
-        Button.url("Channel", url="t.me/BotzHub"),
-        Button.url("Source", url="https://github.com/xditya/TorrentSearch"),
+        Button.url("Channel", url="t.me/lkhitech"),
+        Button.url("Source", url="https://t.me/kavinduaj"),
+        Button.url("Youtube Channel", url="https://www.youtube.com/c/KavinduAj"),
     ],
 ]
 
@@ -145,5 +146,5 @@ async def get_results(query, a):
 
 
 print("Bot has started.")
-print("Do visit @BotzHub..")
+print("Do visit @lkhitech....")
 BotzHub.run_until_disconnected()
